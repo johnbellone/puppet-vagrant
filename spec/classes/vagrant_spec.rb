@@ -12,7 +12,7 @@ describe 'vagrant' do
     let (:params) {{:version => '1.5.0'}}
 
     it { should contain_package('Vagrant_1.5.0')}
-    it { should contain_package('Vagrant_1.5.0').with_source('https://dl.bintray.com/mitchellh/vagrant/vagrant_1.5.0.dmg')}
+    it { should contain_package('Vagrant_1.5.0').with_source('https://dl.bintray.com/mitchellh/vagrant/Vagrant-1.5.0.dmg')}
   end
 
 end
